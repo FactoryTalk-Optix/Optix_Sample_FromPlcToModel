@@ -1,0 +1,4 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: Station1/Station1.yaml

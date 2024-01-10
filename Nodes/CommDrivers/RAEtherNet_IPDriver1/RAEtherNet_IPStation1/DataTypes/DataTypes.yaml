@@ -1,0 +1,100 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: Motor
+  Id: g=dfd492f5625245795012efcf218755df
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Motor",
+    "DataType": {
+     "IdType": 2,
+     "Id": "dfd492f5625245795012efcf218755df",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "CmdOffOn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Power",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SetSpeed",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Speed",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Motor"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: TankUDT
+  Id: g=d37799a14764d48ddc19f3305a2d48f8
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "TankUDT",
+    "DataType": {
+     "IdType": 2,
+     "Id": "d37799a14764d48ddc19f3305a2d48f8",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Level",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SetPoint",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ValveInCmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ValveInStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ValveOutCmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ValveOutStatus",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"TankUDT"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
