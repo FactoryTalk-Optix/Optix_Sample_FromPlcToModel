@@ -2,6 +2,10 @@
 
 This project demonstrates how to automatically create Model tags which are then linked to the imported PLC tags, this is very convenient when the user needs to create an abstract representation of the PLC tags (when using multiple PLC manufacturer with same tag structure for example)
 
+## Deprecated
+
+This script is being distributed in the 1.4.x "Scripts" TemplateLibrary
+
 ## Execution
 
 1. Import the PLC tags to the project
